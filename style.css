@@ -1,0 +1,297 @@
+#menu li {
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    margin: 0 15px;
+    list-style: none;
+    position: relative; top: 20px; 
+}
+
+nav{
+    margin-bottom: 25px;
+}
+.reservation{
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+.apropos{
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+.contact{
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+.panier{
+    list-style: none;
+    float: right;
+    border: none;
+    float: right;
+    margin-right: 40px;
+    margin: 0 15px 15px 0;
+    margin-left: 550px;
+    position: relative; top: 42px;
+    color: white;
+    margin: 0 15px;
+}
+
+.panier-icon ul, li, a, i{
+    color: white;
+  
+}
+
+.compte{
+    list-style: none;
+    float: right;
+    border: none;
+    float: right;
+    margin-right: 40px;
+    margin: 0 15px 15px 0;
+    margin-left: 550px;
+    position: relative; top: 39px;
+    color: white;
+   
+}
+
+img{
+    border-top: 100px;
+}
+
+header{
+    background-color: darkcyan;
+}
+
+#bg-image{
+  background-color: #ed9821;
+  background-size: cover;
+  z-index: 7;
+}
+
+.identification{
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    margin: 0 15px;
+    list-style: none;
+    float: right;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    z-index: 1;
+}
+
+.slogan{
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    margin: 0 15px;
+    list-style: none;
+    float: left;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    z-index: 5;
+    display: flex;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 15px;
+ 
+}
+#activite{
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    margin: 0 15px;
+    list-style: none;
+    float: right;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+.carousel1{
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-radius: 30px;
+    margin: 0 15px;
+    list-style: none;
+    float: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+.carousel1 p{
+    margin-top: 30px;
+}
+
+.recherche ul, li{
+    list-style: none;
+    margin-top: 50px;
+}
+
+.recherche, #rechercher{
+    margin-left: 200px;
+   border-top-width: medium;
+   border-bottom-width: medium;
+   border-left-width: medium;
+   border-right-width: medium;
+}
+
+#recherche h2{
+    margin-top: 70px;
+}
+
+.annonce h2{
+    margin-bottom: 70px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    grid-gap: 20px;
+    margin-top: 70px;
+}
+
+
+
+.card2{
+    float: right;
+    margin-bottom: 500px;
+}
+
+.commentaire .cards{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    grid-gap: 20px;
+    margin-top: 70px;
+}
+.commentaire .card1{
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-radius: 30px;
+    margin: 0 15px;
+    list-style: none;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.commentaire .card2{
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-radius: 30px;
+    margin: 0 15px;
+    list-style: none;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.commentaire .card3{
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-radius: 30px;
+    margin: 0 15px;
+    list-style: none;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.commentaire .card4{
+    text-transform: uppercase;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-radius: 30px;
+    margin: 0 15px;
+    list-style: none;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+footer{
+    background-color: darkgoldenrod;
+    margin-top: 50px;
+}
