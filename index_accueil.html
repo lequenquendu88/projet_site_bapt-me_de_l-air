@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.default.css">
     <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Baptème de l'air</title>
@@ -20,18 +22,8 @@
             </div>
             <div class="col-md-10">
                 <div class="row">
-                    <div class="col-12">
 
-                        <div class="row">
-
-                            <div class="col-4 offset-3">
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-12">
+                    <div class="col-md-9">
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -52,33 +44,39 @@
 
                                     </li>
                                 </ul>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="panier">
-                                            <p>Panier</p>
-                                            <div class="panier-icon">
-                                                <ul class="list-unstyled list-inline">
-                                                    <li class="list-inline-item"><a href=""><i
-                                                                class="fa-solid fa-cart-shopping"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="compte">
-                                            <p>Compte</p>
-                                            <ul class="list-unstyled list-inline">
-                                                <li class="list-inline-item"><a href=""><i
-                                                            class="fa-solid fa-user"></i></a></li>
-                                            </ul>
 
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </nav>
                     </div>
-                </div>
+                    <div class="col-md-3">
+                        <div class="row">
 
+                            <div class="col-6">
+
+                                <div class="compte">
+                                    <p>Compte</p>
+                                    <a href=""><i class="fa-solid fa-user"></i></a>
+
+                                </div>
+
+                            </div>
+                            <div class="col-6">
+                                <div class="panier">
+
+                                    <div class="panier-icon">
+                                        <p>Panier</p>
+                                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+
+        </div>
         </div>
     </header>
 
@@ -97,192 +95,182 @@
     </div>
 
     <div class="container-fluid" id="recherche">
-        <h2>Recherche rapide :</h2>
+        <div>
+            <h2>Recherche rapide :</h2>
+        </div>
         <div class="row">
             <div class="col-12">
-                <div class="carousel1">
-                    <p>Carousel</p>
-                </div>
-
+                <div class="carousel1"> </div>
+                 
                 <div class="recherche">
                     <div class="row">
                         <div class="col-6">
                             <form>
-                                <ul>
-                                    <li>
-                                        <imput type="text" placeholder="activité" class="form-control" name="activité"
-                                            id="activité">Activité</imput>
-                                    </li>
-                                    <li>
-                                        <imput type="text" placeholder="lieu" class="form-control" name="lieu"
-                                            id="lieu">Lieu</imput>
-                                    </li>
-                                    <li>
-                                        <imput type="text" placeholder="date" class="form-control" name="date"
-                                            id="date">Date</imput>
-                                    </li>
-                                    <li>
-                                        <imput type="text" placeholder="nombre de personnes" class="form-control"
-                                            name="nombre de personnes" id="nombre de personnes"> Nombre de personnes
-                                        </imput>
-                                    </li>
-                                    <li>
-                                        <button type="button" placeholder="rechercher" class="form-control"
-                                            name="rechercher" id="rechercher">Rechercher</button>
-                                    </li>
-                                </ul>
+
+                                <row>
+                                    <imput type="text" placeholder="activité" class="form-control" name="activité"
+                                        id="activité">Activité</imput>
+                                </row>
+
+                                <row>
+                                    <imput type="text" placeholder="lieu" class="form-control" name="lieu" id="lieu">
+                                        Lieu</imput>
+                                </row>
+                                <row>
+                                    <imput type="text" placeholder="date" class="form-control" name="date" id="date">
+                                        Date</imput>
+                                </row>
+                                <row>
+                                    <imput type="text" placeholder="nombre de personnes" class="form-control"
+                                        name="nombredepersonnes" id="nombredepersonnes"> Nombre de personnes
+                                    </imput>
+                                </row>
+                                <row>
+                                    <button type="button" placeholder="rechercher" class="form-control"
+                                        name="rechercher" id="rechercher">Rechercher</button>
+                                </row>
+
                             </form>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="annonce">
+        <div class="row">
+            <div class="col-12">
                 <div class="annonce">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2>Nos annonces :</h2>
-                            <div class="cards">
-                                <article class="card1">
-                                    <img src="./images/670 (image annonce réduite).png" alt="">
+                    <h2>Nos Annonces</h2>
+                    <div class="cards">
+                        <div class="owl-carousel owl-theme">
+                            <div>
+                                <div class="card1">
+                                    <img src="./images/670 (image annonce réduite).png" class="imgcarousel" width="500"
+                                        height="200">
                                     <div class="content-des">
-                                        <p>
-                                            <strong>description :</strong>
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit... .
-
-
-                                        </p>
+                                        <br><strong>description :</strong> Lorem, ipsum dolor sit amet consectetur
+                                        adipisicing elit... .</br>
                                     </div>
                                     <div class="content-prix">
-                                        <p>
-                                            <strong>Prix :</strong>
-                                            --,--€
-                                        </p>
+                                        <br><strong>Prix :</strong>--,--€</br>
                                     </div>
 
-                                </article>
-                                <article class="card2">
-                                    <img src="./images/670 (image annonce réduite).png" alt="">
-                                    <div class="content-des">
-                                        <p>
-                                            <strong>description :</strong>
-                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit... .
-
-
-                                        </p>
-                                    </div>
-                                    <div class="content-prix">
-                                        <p>
-                                            <strong>Prix :</strong>
-                                            --,--€
-                                        </p>
-                                    </div>
-
-                                </article>
-
+                                </div>
                             </div>
+                            <div>
+                                <div class="card2">
+                                    <img src="./images/670 (image annonce réduite).png" class="imgcarousel" width="500"
+                                        height="200">
+                                    <div class="content-des">
+                                        <br><strong>description :</strong> Lorem, ipsum dolor sit amet consectetur
+                                        adipisicing elit... .</br>
+                                    </div>
+                                    <div class="content-prix">
+                                        <br><strong>Prix :</strong>--,--€</br>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card3">
+                                    <img src="./images/670 (image annonce réduite).png" class="imgcarousel" width="500"
+                                        height="200">
+                                    <div class="content-des">
+                                        <br><strong>description :</strong> Lorem, ipsum dolor sit amet consectetur
+                                        adipisicing elit... .</br>
+                                    </div>
+                                    <div class="content-prix">
+                                        <br><strong>Prix :</strong>--,--€</br>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card4">
+                                    <img src="./images/670 (image annonce réduite).png" class="imgcarousel" width="500"
+                                        height="200">
+                                    <div class="content-des">
+                                        <br><strong>description :</strong> Lorem, ipsum dolor sit amet consectetur
+                                        adipisicing elit... .</br>
+                                    </div>
+                                    <div class="content-prix">
+                                        <br><strong>Prix :</strong>--,--€</br>
+                                    </div>
+
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid" id="commentaire">
         <div class="row">
             <div class="col-12">
                 <div class="commentaire">
-                    <h2> Les Avis :</h2>
+                    <h2>Vos retours de nos activités:</h2>
                     <div class="cards">
-                        <article class="card1">
-                            <p>
-                                <strong>Nom :</strong>
-                            </p>
-                            <div class="avis">
-                                <p>
-                                    <strong>Avis :</strong>
-                                </p>
+                        <div class="owl-carousel owl-theme">
+                            <div>
+                                <div class="card1">
+                                    <p>
+                                        <strong>Nom :</strong>
+                                    </p>
+                                    <div class="avis">
+                                        <p>
+                                            <strong>Avis :</strong>
+                                        </p>
 
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fas fa-star-half-alt'></i>
+                                        <i class='fa fa-star'></i>
+                                        <i class='fa fa-star'></i>
+                                        <i class='fa fa-star'></i>
+                                        <i class='fa fa-star'></i>
+                                        <i class='fas fa-star-half-alt'></i>
+                                    </div>
+                                    <p>
+                                        <strong>Commentaire :</strong>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit... .
+                                    </p>
+
+                                </div>
                             </div>
-                            <p>
-                                <strong>Commentaire :</strong>
-                            </p>
+                            <div>
+                                <div class="card2">
+                                    <p>
+                                        <strong>Nom :</strong>
+                                    </p>
+                                    <div class="avis">
+                                        <p>
+                                            <strong>Avis :</strong>
+                                        </p>
 
-                        </article>
+                                        <i class='fa fa-star'></i>
+                                        <i class='fa fa-star'></i>
+                                        <i class='fa fa-star'></i>
+                                        <i class='fa fa-star'></i>
+                                        <i class='fas fa-star-half-alt'></i>
+                                    </div>
+                                    <p>
+                                        <strong>Commentaire :</strong>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit... .
+                                    </p>
 
-                        <article class="card2">
-                            <p>
-                                <strong>Nom :</strong>
-                            </p>
-                            <div class="avis">
-                                <p>
-                                    <strong>Avis :</strong>
-                                </p>
-
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fas fa-star-half-alt'></i>
+                                </div>
                             </div>
-                            <p>
-                                <strong>Commentaire :</strong>
-                            </p>
+                           
 
-                        </article>
-
-                        <article class="card3">
-                            <p>
-                                <strong>Nom :</strong>
-                            </p>
-                            <div class="avis">
-                                <p>
-                                    <strong>Avis :</strong>
-                                </p>
-
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fas fa-star-half-alt'></i>
-                            </div>
-                            <p>
-                                <strong>Commentaire :</strong>
-                            </p>
-
-                        </article>
-
-                        <article class="card4">
-                            <p>
-                                <strong>Nom :</strong>
-                            </p>
-                            <div class="avis">
-                                <p>
-                                    <strong>Avis :</strong>
-                                </p>
-
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fa fa-star'></i>
-                                <i class='fas fa-star-half-alt'></i>
-                            </div>
-                            <p>
-                                <strong>Commentaire :</strong>
-                            </p>
-
-                        </article>
-
-
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    
     <footer>
         <div class="container">
             <div class="row justify-content-center">
@@ -317,13 +305,15 @@
 
             </div>
         </div>
-        </div>
+
 
     </footer>
 
-    <script src="./main.js"></script>
-    <script src="./node_modules/owlcarousel/owl-carousel/owl.carousel.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="./fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/js/all.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./main.js"></script>
 
 </body>
 

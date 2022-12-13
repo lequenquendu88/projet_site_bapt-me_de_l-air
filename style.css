@@ -8,7 +8,13 @@
     margin: 0 15px;
     list-style: none;
     position: relative; top: 20px; 
+    color: black;
 }
+
+#menu{
+    margin-top: 30px;
+}
+
 
 nav{
     margin-bottom: 25px;
@@ -48,7 +54,7 @@ nav{
     margin-right: 40px;
     margin: 0 15px 15px 0;
     margin-left: 550px;
-    position: relative; top: 42px;
+    position: relative; top: 39px;
     color: white;
     margin: 0 15px;
 }
@@ -68,6 +74,9 @@ nav{
     margin-left: 550px;
     position: relative; top: 39px;
     color: white;
+    margin: 0 15px;
+   
+
    
 }
 
@@ -155,11 +164,11 @@ header{
     padding-right: 100px;
     padding-bottom: 100px;
     width: 600px;
-    height: 300px;
-    text-align: center;
-    margin-top: 150px;
+    height: 400px;
+    margin-top: 50px;
     margin-left: 100px;
     background-color: white;
+    background-image: url(./images/670\ \(image\ annonce\ réduite\).png);
 }
 
 .carousel1 p{
@@ -177,21 +186,55 @@ header{
    border-bottom-width: medium;
    border-left-width: medium;
    border-right-width: medium;
+   margin-top: 50px;
 }
 
+
+
 #recherche h2{
-    margin-top: 70px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#recherche{
+display: inline-block;
+background-color: darkgrey;
+padding-bottom: 30px;
+}
+
+#recherche p{
+    padding-top: 50px;
+}
+
+#lieu{
+    margin-top: 50px;
+}
+
+#date{
+    margin-top: 50px;
+}
+
+#nombredepersonnes{
+    margin-top: 50px;
+}
+
+#annonce{
+    background-color: lightgray;
 }
 
 .annonce h2{
     margin-bottom: 70px;
+    margin-top: 40px;
+    margin-left: 20px;
 }
 
-.cards{
+.annonce .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr));
     grid-gap: 20px;
     margin-top: 70px;
+    height: 550px;
+    margin-left: 20px;
 }
 
 
@@ -201,11 +244,17 @@ header{
     margin-bottom: 500px;
 }
 
+.commentaire h2{
+    margin-top: 60px;
+    margin-left: 20px
+}
+
 .commentaire .cards{ 
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr));
     grid-gap: 20px;
     margin-top: 70px;
+    margin-left: 30px;
 }
 .commentaire .card1{
     text-transform: uppercase;
@@ -221,10 +270,11 @@ header{
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    width: 400px;
+    width: 300px;
     height: 300px;
     margin-top: 50px;
     margin-left: 10px;
+    margin-right: 100px;
     background-color: white;
 }
 
@@ -242,56 +292,21 @@ header{
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
-    width: 400px;
+    width: 300px;
     height: 300px;
     margin-top: 50px;
     margin-left: 10px;
+    margin-right: 100px;
     background-color: white;
 }
 
-.commentaire .card3{
-    text-transform: uppercase;
-    border-bottom-style: solid;
-    border-top-style: solid;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-bottom-width: 2px;
-    border-radius: 30px;
-    margin: 0 15px;
-    list-style: none;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    width: 400px;
-    height: 300px;
-    margin-top: 50px;
-    margin-left: 10px;
-    background-color: white;
-}
-
-.commentaire .card4{
-    text-transform: uppercase;
-    border-bottom-style: solid;
-    border-top-style: solid;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-bottom-width: 2px;
-    border-radius: 30px;
-    margin: 0 15px;
-    list-style: none;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    width: 400px;
-    height: 300px;
-    margin-top: 50px;
-    margin-left: 10px;
-    background-color: white;
-}
 
 footer{
     background-color: darkgoldenrod;
-    margin-top: 50px;
+    margin-top: 100px;
+}
+
+footer h3,ul, li, a{
+    border: none;
+    margin-top: 20px;
 }
