@@ -82,17 +82,17 @@ nav{
 
 img{
     border-top: 100px;
+
 }
 
 header{
     background-color: darkcyan;
 }
-
-#bg-image{
-  background-color: #ed9821;
-  background-size: cover;
-  z-index: 7;
+.img-fluid{
+    z-index: 1;
+    position: relative;
 }
+
 
 .identification{
     text-transform: uppercase;
@@ -108,7 +108,11 @@ header{
     padding-left: 15px;
     padding-right: 15px;
     background-color: white;
-    z-index: 1;
+    z-index: 2;
+    position: absolute;
+    margin-left: 1300px;
+   
+   
 }
 
 .slogan{
@@ -125,11 +129,12 @@ header{
     padding-left: 15px;
     padding-right: 15px;
     background-color: white;
-    z-index: 5;
     display: flex;
     text-align: center;
     margin-left: 550px;
     margin-top: 15px;
+    z-index: 2;
+    position: absolute;
  
 }
 #activite{
@@ -168,7 +173,7 @@ header{
     margin-top: 50px;
     margin-left: 100px;
     background-color: white;
-    background-image: url(./images/670\ \(image\ annonce\ réduite\).png);
+    background-image: url(./images/saut\ aérien\ taille\ orgine.jpg);
 }
 
 .carousel1 p{
